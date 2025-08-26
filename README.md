@@ -62,7 +62,7 @@ Gatherly wird der **Standard-Kalender für gemeinsame Erlebnisse**: privat, loka
 ## Problem & Warum jetzt
 - **Fragmentierte Tools:** Chats, Social, Ticketing, Foto-Clouds – alles verstreut.  
 - **Privat vs. öffentlich:** Keine App kombiniert beides sinnvoll.  
-- **Fotosharing:** Gäste wollen Fotos hochladen **ohne Account**.  
+- **Fotosharing:** Gäste wollen Fotos hochladen **ohne Account**.  (Wedding-Mode etc.)
 - **Spontanität fehlt:** klassische Event-Systeme sind schwerfällig, nicht für spontane Treffen.  
 
 ---
@@ -159,11 +159,11 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
 ---
 
 ## Produkt & Architektur
-- **Frontend:** Flutter/FlutterFlow (Mobile + Web)  
-- **Backend/DB:** Supabase (Postgres, Auth, Row-Level-Security, Storage)  
-- **Storage:** Supabase Storage (Fotos), CDN  
-- **Server-Logik:** Supabase Edge Functions (Webhooks für Promo/Analytics)  
-- **CI/CD:** GitHub + FlutterFlow Deploy  
+- **Frontend:** ⚠️ **TBD:**
+- **Backend/DB:** ⚠️ **TBD:** 
+- **Storage: ** ⚠️ **TBD:**
+- **Server-Logik: ⚠️ **TBD:**
+- **CI/CD:** GitHub or ⚠️ **TBD:**
 - **Domain:** `gatherlyapp.space`  
 
 ---
@@ -237,14 +237,13 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
 ---
 
 ## Team
-- **Jesse Barron** — Gründer, Produkt  
-- **Johannes Aragon** — Co-Founder, Partnerships  
-- **Sebastian Anders** — Tech & Design, Input zu UX/Framing  
+- **Jesse Barron** — 
+- **Johannes Aragon** — 
+- **Sebastian Anders** — 
 
 ---
 
 ## Funding & Einsatzplanung
-- Aktuell: Bootstrapped MVP (FlutterFlow + Supabase)  
 - Offen für Seed/Pre-Seed Funding  
 
 ⚠️ **TBD:** Kapitalbedarf für 6–12 Monate (z. B. 250–500k €)  
@@ -261,6 +260,5 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
 ## Lizenz & Kontakt
 - Lizenz: ⚠️ TBD (Proprietär oder MIT für Teile)  
 - Kontakt:  
-  - Jesse Barron – `jesse@gatherly.com`  
   - Discord: ⚠️ TBD  
   - Website: ⚠️ TBD
