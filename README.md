@@ -275,6 +275,7 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
   - Website: ⚠️ TBD
 
 
-<img width="540" height="518" alt="image" src="https://github.com/user-attachments/assets/6808f1c8-09a5-495b-a368-0154074b834f" />
+<img width="540" height="518" alt="image" src="https://github.com/user-attachments/assets/03d46509-91de-425b-a832-4aa9e99cf2f4" />
+
 
 
