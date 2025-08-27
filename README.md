@@ -278,7 +278,8 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
   - Website: gatherlyapp.space
 
 
-<img width="532" height="518" alt="image" src="https://github.com/user-attachments/assets/e7b12b10-abba-46dc-9c1b-f16d07d8e330" />
+<img width="532" height="518" alt="image" src="https://github.com/user-attachments/assets/1427c872-dd82-4b15-8042-d597c0198b52" />
+
 
 
 
