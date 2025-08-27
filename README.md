@@ -165,7 +165,7 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
 
 ---
 
-## Produkt & Architektur
+## Tech-Stack
 - **Frontend:** 
 - **Backend/DB:** 
 - **Storage:**   
