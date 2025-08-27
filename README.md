@@ -170,7 +170,7 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
 - **Backend/DB:** 
 - **Storage:**   
 - **Server-Logik:** 
-- **CI/CD:** 
+- **CI/CD:** V0 Vercel
 - **Domain:** `gatherlyapp.space`  
 
 ---
