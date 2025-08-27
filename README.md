@@ -271,9 +271,10 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
 ## Lizenz & Kontakt
 - Lizenz: ⚠️ TBD (Proprietär oder MIT für Teile)  
 - Kontakt:  
-  - Jesse Barron – `
-  - Johannes Aragon
-  - Sebastian Anders
+  - Jesse Barron *Grün*
+  - Johannes Aragon *Blau*
+  - Sebastian Anders *Rot*
+  - +1 
   - Discord: Gatherly 
   - Website: gatherlyapp.space
 
