@@ -270,6 +270,6 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
 ## Lizenz & Kontakt
 - Lizenz: ⚠️ TBD (Proprietär oder MIT für Teile)  
 - Kontakt:  
-  - Jesse Barron – `jesse@gatherly.com`  
+  - Jesse Barron – `
   - Discord: ⚠️ TBD  
   - Website: ⚠️ TBD
