@@ -248,7 +248,8 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
 ## Team
 - **Jesse Barron** — 
 - **Johannes Aragon** — 
-- **Sebastian Anders** — 
+- **Sebastian Anders** —
+- +1
 
 ---
 
