@@ -1,7 +1,7 @@
 # Gatherly — BusinessPlan.md
 
 > **Gatherly ist die Event-Plattform, die private und öffentliche Events endlich in einer App bündelt:**  
-Einladungen, Teilnehmer, Kommentare/To-Dos, **gemeinsame Fotoalben (inkl. QR-Gast-Upload ohne Konto)**, Suche (Events/Freunde/Gruppen/Veranstalter), **„Nearby“-Impulse** à la „Ich bin hier – wer kommt?“, **Business-Promo & Ticket-Links** – alles an einem Ort, ohne Tool-Chaos.
+Einladungen, Teilnehmer, Kommentare/To-Dos, **gemeinsame Fotoalben (inkl. QR-Gast-Upload ohne Konto)**, Suche (Events/Freunde/Gruppen/Veranstalter), **„Nearby“-Impulse** à la „Ich bin hier – wer kommt?“, **Business-Promo & Ticket-Links**, Navigation zu Locations & Stages – alles in einer App, ohne Tool-Chaos.
 
 ---
 
@@ -34,12 +34,12 @@ Einladungen, Teilnehmer, Kommentare/To-Dos, **gemeinsame Fotoalben (inkl. QR-Gas
 ## Executive Summary
 **Gatherly** löst das Alltagsproblem, Events über viele Kanäle (WhatsApp, Facebook, Eventbrite, Telegram, E-Mails, Cloud-Ordner) zu organisieren.  
 
-Wir bündeln alles in **einer App**: Planung, Einladungen, Foto-Sharing, Event-Kommentare, spontane Treffen („Nearby“), und für Business-Kunden ein Dashboard mit **Promo, Ticket-Links und Analytics**.  
+Wir bündeln alles in **einer App**: Planung, Einladungen, Foto-Sharing, Event-Kommentare, spontane Treffen („Nearby“), Navigation zu Veranstaltungsorten, und für Business-Kunden ein Dashboard mit **Promo, Ticket-Links und Analytics**.  
 
 - **Privatnutzer:** Geburtstage, Grillen, Vereins- und Schul-Events.  
 - **Communities:** Schulen, Gemeinden, Nachbarschaften.  
 - **Business:** Städte, Veranstalter, Firmen.  
-- **USP:** Kombination von *privaten* und *öffentlichen* Events in **einer Plattform**, inkl. **QR-Foto-Uploads ohne Konto** und **Nearby-Microevents**.
+- **USP:** Kombination von *privaten* und *öffentlichen* Events in **einer Plattform**, inkl. **QR-Foto-Uploads ohne Konto**, **Nearby-Microevents**, und **Navigation bis in die Event-Area**.
 
 ---
 
@@ -53,6 +53,7 @@ Gatherly wird der **Standard-Kalender für gemeinsame Erlebnisse**: privat, loka
 - **Öffentlich/Business:** Reichweite, Promotion, Ticket-Links & Analytics – aus einem Dashboard.  
 - **Spontanität:** Nearby-Impulse à la *Beer With Me* machen Treffen einfach & schnell.  
 - **Zugänglichkeit:** QR-Foto-Upload ohne Konto für Gäste (inspiriert von *weddies*).  
+- **Navigation:** Nutzer können direkt zur Location oder sogar **innerhalb eines Events** (z. B. Festival → Foodzone, verschiedene Stages) navigieren.  
 - **Low Friction Groups:** Per Link/QR/SMS beitreten (inspiriert von *GroupMe*).  
 
 ⚠️ **TBD:** Framing – wird Gatherly als **Event-App mit Social Layer** positioniert oder als **Social-App mit Event-Kern**?
@@ -62,7 +63,8 @@ Gatherly wird der **Standard-Kalender für gemeinsame Erlebnisse**: privat, loka
 ## Problem & Warum jetzt
 - **Fragmentierte Tools:** Chats, Social, Ticketing, Foto-Clouds – alles verstreut.  
 - **Privat vs. öffentlich:** Keine App kombiniert beides sinnvoll.  
-- **Fotosharing:** Gäste wollen Fotos hochladen **ohne Account**.  (Wedding-Mode etc.)
+- **Fotosharing:** Gäste wollen Fotos hochladen **ohne Account**.  
+- **Navigation:** User verlieren sich in großen Events (Festivals, Stadtfeste).  
 - **Spontanität fehlt:** klassische Event-Systeme sind schwerfällig, nicht für spontane Treffen.  
 
 ---
@@ -70,7 +72,9 @@ Gatherly wird der **Standard-Kalender für gemeinsame Erlebnisse**: privat, loka
 ## Lösung & Produktversprechen
 - **Ein Hub** für alle Events – privat und öffentlich.  
 - **Trojan Horse-Feature (⚠️ TBD):** QR-Foto-Upload oder Nearby-Impulse als virales Einstiegs-Feature.  
+- **Navigation:** Von der Karte bis zu **Stages oder Areas innerhalb eines Events** (via Map-Integration oder TimeTable).  
 - **Business-Suite:** Self-Serve Promotion, Ticketing, Besucher-Analytics.  
+- **Experimentell (⚠️ TBD):** Offline-Mesh-Kommunikation via Bluetooth/WiFi Direct (wie AirTags, falls kein Netz verfügbar).  
 
 ---
 
@@ -102,6 +106,7 @@ Gatherly wird der **Standard-Kalender für gemeinsame Erlebnisse**: privat, loka
 ### Events
 - **Übersicht:** Liste/Grid, Kategorien, Suche, Favoriten  
 - **Detail:** Titelbild, Titel, Datum, Ort (Map), Beschreibung, Host-Info, Teilnehmer-Counter, CTA (Beitreten/Tickets), Fotos, Kommentare, optional Chat, Share-Button  
+- **Navigation:** Direkt zur Location via Maps, oder innerhalb des Events (z. B. Festival → Foodzone oder Stages via TimeTable).  
 - **Create Event:** Titelbild, Datum/Uhrzeit, Ort + Map-Picker, Kategorie, Beschreibung, Public/Private Toggle, Invite (Kontakt/Name/Nummer), Save Button  
 - **My Events:** Übersicht, Status (public/private), Bearbeiten/Löschen, Teilnehmer, Link teilen  
 - **Nearby-Impulse:** spontane Kurz-Posts („Ich bin hier“), sichtbar für Freunde oder Umkreis  
@@ -134,6 +139,8 @@ Gatherly wird der **Standard-Kalender für gemeinsame Erlebnisse**: privat, loka
 8. Self-Serve Promo & Ticketing  
 9. Teilnehmer-Live-Status (opt-in)  
 10. Gemeinsame Foto-Archive pro Event  
+11. **Navigation bis ins Event:** Vom Startpunkt zur Veranstaltung, oder innerhalb des Events (Foodzone, Stages, TimeTable).  
+12. **Experimentell:** Offline-Mesh-Kommunikation zwischen Geräten via Bluetooth/WiFi Direct – Kommunikation ohne Signal (⚠️ Realisierbarkeit prüfen).  
 
 ---
 
@@ -142,7 +149,7 @@ Gatherly wird der **Standard-Kalender für gemeinsame Erlebnisse**: privat, loka
 Sign Up → Create Event → Invite Friends → Kommentare/Bring-Mit → Fotos teilen → (optional: Bill Splitting ⚠️ TBD)  
 
 ### Public Events  
-Login → Browse Events → Filter → Detail → Join → Notifications  
+Login → Browse Events → Filter → Detail → Join → Navigation → Notifications  
 
 ### Business Events  
 Login → Dashboard → Create/Promote Event → Sales Links → Analytics → Revenue  
@@ -159,11 +166,11 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
 ---
 
 ## Produkt & Architektur
-- **Frontend:** ⚠️ **TBD:**
-- **Backend/DB:** ⚠️ **TBD:** 
-- **Storage: ** ⚠️ **TBD:**
-- **Server-Logik: ⚠️ **TBD:**
-- **CI/CD:** GitHub or ⚠️ **TBD:**
+- **Frontend:** 
+- **Backend/DB:** 
+- **Storage:**   
+- **Server-Logik:** 
+- **CI/CD:** 
 - **Domain:** `gatherlyapp.space`  
 
 ---
@@ -181,6 +188,7 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
 - Row-Level-Security Policies  
 - Moderation: Melden/Entfernen von Inhalten, Sperren von Usern  
 - Foto-Rechte: Einwilligung beim Upload  
+- **⚠️ TBD:** Datenschutz & Sicherheitskonzept für Offline-Mesh-Kommunikation  
 
 ---
 
@@ -233,6 +241,7 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
 - Adoption: Wechselhürde von WhatsApp hoch  
 - Datenschutz: Standort & Fotos sensibel  
 - Business Value: Promo muss ROI liefern  
+- **⚠️ Offline Mesh-Kommunikation:** technisch anspruchsvoll, evtl. hoher Akkuverbrauch, realistisch nur als **Phase 3/Experiment**  
 
 ---
 
@@ -244,9 +253,10 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
 ---
 
 ## Funding & Einsatzplanung
+- Aktuell: 
 - Offen für Seed/Pre-Seed Funding  
 
-⚠️ **TBD:** Kapitalbedarf für 6–12 Monate (z. B. 250–500k €)  
+⚠️ **TBD:** Kapitalbedarf für 6–12 Monate
 
 ---
 
@@ -260,5 +270,6 @@ Login → Dashboard → Create/Promote Event → Sales Links → Analytics → R
 ## Lizenz & Kontakt
 - Lizenz: ⚠️ TBD (Proprietär oder MIT für Teile)  
 - Kontakt:  
+  - Jesse Barron – `jesse@gatherly.com`  
   - Discord: ⚠️ TBD  
   - Website: ⚠️ TBD
